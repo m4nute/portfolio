@@ -1,0 +1,40 @@
+.bg-dark {
+    background-color: #0b1a32 !important;
+    padding: 12px !important;
+    a {
+        * {
+            opacity: 96%;
+            color: #EEEEEE !important;
+            transition: .3s;
+        }
+        &:hover {
+            transition: .3s;
+            color: #4ECCA3 !important;
+        }
+    }
+    box-shadow: 0 10px 20px -10px rgba(2, 12, 27, 0.7);
+}
+
+.me-auto {
+    display: flex !important;
+    width: 100%;
+    justify-content: center !important;
+}
+
+.nav-link {
+    margin: 0 1rem;
+
+    @media screen and (max-width:780px) {
+        margin: 0 .5rem;
+    }
+}
+
+.navbar-toggler {
+    background-color: #0b1a32 !important;
+    border: 0 !important;
+
+    &:active {
+        border: 0 !important;
+        background-color: #0b1a32 !important;
+    }
+}

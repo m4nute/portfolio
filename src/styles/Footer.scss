@@ -1,0 +1,57 @@
+.footer_main {
+    display: flex;
+    justify-content: center;
+    * {
+        color: #fff;
+        font-weight: 400;
+        opacity: 90%;
+    }
+    height: 3rem;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}   
+@media only screen and (max-width:650px) {
+    .mail {
+        font-size: 90%;
+        letter-spacing: .1rem;
+    }
+}
+@media only screen and (max-width:530px) {
+    .mail {
+        font-size: 90%;
+        letter-spacing: 0rem;
+    }
+}
+@media only screen and (max-width:450px) {
+    #col-1 {
+        width: 70vw !important;
+        margin-left: .5rem !important;
+        margin-right: .5rem !important;
+    }
+    #col-2 {
+        width: 30vw  !important;
+        letter-spacing: 0rem;
+    }
+}
+@media only screen and (max-width:350px) {
+    #col-1 {
+        font-size: 90%;
+        margin-left: .5rem !important;
+        margin-right: .2rem !important;
+    }
+    #col-2 {
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width:300px) {
+    #col-1 {
+        margin-left: .4rem !important;
+    }
+    #col-2 {
+        font-size: 75%;
+    }
+}
