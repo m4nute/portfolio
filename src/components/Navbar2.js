@@ -24,7 +24,7 @@ function Navbar2() {
                         <Nav.Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} href="#skills" data-aos='fade-right' data-aos-delay="100" ><span id='navlink'>Conocimientos</span></Nav.Link>
                         <Nav.Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} href="#projects" data-aos='fade-right' data-aos-delay="200" ><span id='navlink'>Proyectos</span></Nav.Link>
                         <Nav.Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} href="#contact" data-aos='fade-right' data-aos-delay="300" ><span id='navlink'>Contactame</span></Nav.Link>
-                        <Nav.Link onClick={() => window.open("https://", "_blank")} href="#contact" data-aos='fade-right' data-aos-delay="300" ><span id='navlink'>Contactame</span></Nav.Link>
+                        <Nav.Link onClick={() => window.open("https://docdro.id/hItJnqy", "_blank")} data-aos='fade-right' data-aos-delay="300" ><span id='navlink'>Curriculum</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

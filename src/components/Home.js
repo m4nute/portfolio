@@ -4,6 +4,7 @@ import Tech from './Tech'
 import Card from './Card'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 function Home() {
     AOS.init({
         duration: 1200,
@@ -15,7 +16,7 @@ function Home() {
             <h1 className='name' id='intro' data-aos="slide-right" data-aos-duration="1300" data-aos-delay="100">Manuel Gudiño</h1>
             <h3 id='dw' data-aos="slide-right" data-aos-duration="1250">Sobre Mi</h3>
             <div className='intro'>
-                <p data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200">Soy un desarrollador de 17 años de Buenos Aires, haciéndome camino en las tecnologías web. Estudio informática en el Instituto Luis A. Huergo, a día de hoy cursando 5to año. Me considero un aficionado a la resolución de problemas, tanto en el desarrollo de software como en cualquier tipo de puzzles.
+                <p data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200">Soy un desarrollador de 17 años de Buenos Aires, haciéndome camino en las tecnologías web. Estudio informática en el Instituto Luis A. Huergo, hoy cursando 5to año. Me considero un aficionado a la resolución de problemas, tanto en el desarrollo de software como en cualquier tipo de puzzles.
                 </p>
                 <br />
                 <p data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200">
