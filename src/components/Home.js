@@ -36,19 +36,18 @@ function Home() {
                     <div className='tech' data-aos="fade-right" data-aos-duration="1150" data-aos-delay="200"><Tech src="flask.webp" h2='Flask' alt='Flask' /></div>
                     <div className='tech' data-aos="fade-right" data-aos-duration="1150" data-aos-delay="200"><Tech src="sass.webp" h2='Sass' alt='Sass' /></div>
                     <div className='tech' data-aos="fade-right" data-aos-duration="1150" data-aos-delay="300"><Tech src="mysql.png" h2='MySQL' alt='MySQL' /></div>
-                    <div className='tech' data-aos="fade-right" data-aos-duration="1150" data-aos-delay="300"><Tech src="mongodb.png" h2='MongoDB' alt='MongoDB' /></div>
                     <div className='tech' data-aos="fade-right" data-aos-duration="1150" data-aos-delay="300"><Tech src="git.png" h2='Git' alt='Git' /></div>
                 </div>
             </div>
             <div className='projects' id='projects'>
-                <h1 id='mb_2' data-aos="fade-down" data-aos-duration="1400" data-aos-delay='200'>Proyectos</h1>
+                <h1 id='mb_2' data-aos="slide-right" data-aos-duration="1400">Proyectos</h1>
                 <div className='list'>
 
-                    <div className="project" data-aos="fade-down" data-aos-duration="1400"><Card img='games.png' h1='GamesDB' alt='gamesdb' p='Librería de juegos compuesta por contenido dinámico, generado mediante API de FreeToGames.' preview='https://games-db-api.netlify.app/' github='https://github.com/m4nute/react_gamesdb' /></div>
+                    <div className="project" data-aos="fade-right" data-aos-duration="1400"><Card img='games.png' h1='GamesDB' alt='gamesdb' p='Librería de juegos compuesta por contenido dinámico, generado mediante API de FreeToGames.' preview='https://games-db-api.netlify.app/' github='https://github.com/m4nute/react_gamesdb' /></div>
 
-                    <div className="project" data-aos="fade-down" data-aos-duration="1400"><Card img='martin.png' h1='San Martín' alt='san martin' p='Web conmemorativa al general San Martín. Presenta información relacionada y una trivia.' preview='https://san-martin-2022.netlify.app/' github='https://github.com/m4nute/san-martin' /></div>
+                    <div className="project" data-aos="fade-right" data-aos-duration="1400"><Card img='martin.png' h1='San Martín' alt='san martin' p='Web conmemorativa al general San Martín. Presenta información relacionada y una trivia.' preview='https://san-martin-2022.netlify.app/' github='https://github.com/m4nute/san-martin' /></div>
 
-                    <div className="project" data-aos="fade-down" data-aos-duration="1400"><Card img='bdates.png' h1='Calendario' alt='calendar' p='Calendario de cumpleaños. Ayuda al usuario a acordarse de cuándo tiene que saludar a sus amigos.' github='https://github.com/m4nute/birthdate-calendar' /></div>
+                    <div className="project" data-aos="fade-right" data-aos-duration="1400"><Card img='bdates.png' h1='Calendario' alt='calendar' p='Calendario de cumpleaños. Ayuda al usuario a acordarse de cuándo tiene que saludar a sus amigos.' github='https://github.com/m4nute/birthdate-calendar' /></div>
 
                 </div>
             </div>
@@ -59,7 +58,7 @@ function Home() {
                         <input type="hidden" name="_captcha" value="false" />
                         <input data-aos="fade-up" data-aos-duration="1250" data-aos-delay='400' type="email" className='form-control' placeholder='Tu Email' name='email' required />
                         <textarea name="textarea" data-aos="fade-up" data-aos-duration="1250" data-aos-delay='400' placeholder='Mensaje' className='form-control' required />
-                        <button className='send' data-aos="fade" data-aos-duration="1250" data-aos-delay='1100'>
+                        <button className='send' data-aos="fade" data-aos-duration="1200" data-aos-delay='700'>
                             <div className="svg-wrapper-1">
                                 <div className="svg-wrapper">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

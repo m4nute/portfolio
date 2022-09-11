@@ -7,14 +7,15 @@
             color: #EEEEEE !important;
             transition: .3s;
         }
-        &:hover {
-            transition: .3s;
-            color: #4ECCA3 !important;
-        }
     }
     box-shadow: 0 10px 20px -10px rgba(2, 12, 27, 0.7);
 }
-
+#navlink {
+    &:hover {
+        transition: .3s;
+        color: #4ECCA3 !important;
+    }
+}
 .me-auto {
     display: flex !important;
     width: 100%;

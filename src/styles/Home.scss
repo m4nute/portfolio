@@ -32,7 +32,9 @@
         }
     } 
 }
-
+#intro {
+    padding-top: 11rem;
+}
 .intro {
     margin-top: 1rem;
     width: 60%;
@@ -50,16 +52,16 @@
 }
 
 .skills {
-    margin: 35vh 15% 5vh;
+    margin: 26vh 15% 5vh;
     text-align: center;
     width: 70%;
     @media screen and (max-width:1500px) {
         width: 80%;
-        margin: 25vh 10% 0;
+        margin: 20vh 10% 0;
     }
     @media screen and (max-width:1200px) {
         width: 90%;
-        margin: 20vh 5% 0;
+        margin: 15vh 5% 0;
     }
     @media screen and (max-width:800px) {
         width: 100%;
@@ -180,7 +182,7 @@
         width: 60%;
 
     }
-    @media screen and (max-width:600px) {
+    @media screen and (max-width:620px) {
         margin: 9rem 10% 0;
         width: 80%;
     }
@@ -224,19 +226,27 @@ textarea {
     border-radius: 16px;
     overflow: hidden;
     transition: all 0.2s;
+    @media screen and (max-width:1550px) {
+        width: 20%;
+        margin: 1rem 40%;
+    }
     @media screen and (max-width:1400px) {
         width: 22%;
         margin: 0 39%;
     }
-    @media screen and (max-width:1180px) {
+    @media screen and (max-width:1240px) {
+        width: 26%;
+        margin: 0 37%;
+    }
+    @media screen and (max-width:1050px) {
         width: 30%;
         margin: 0 35%;
     }
     @media screen and (max-width:700px) {
-        width: 34%;
-        margin: 0 32%;
+        width: 33%;
+        margin: 0 33.5%;
     }
-    @media screen and (max-width:450px) {
+    @media screen and (max-width:470px) {
         width: 40%;
         margin: 0 30%;
     }
@@ -412,8 +422,8 @@ textarea {
 }
 
 #skills {
-    padding-top: 16rem;
+    padding-top: 13rem;
 }
 #projects {
-    padding-top: 3rem;
+    padding-top: 9rem;
 }
