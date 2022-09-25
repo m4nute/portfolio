@@ -3,8 +3,10 @@ import 'font-awesome/css/font-awesome.min.css';
 
 function Card(props) {
   const [preview, setPreview] = useState(false)
+  const [github, setGithub] = useState(false)
   useEffect(() => {
     props.preview === undefined && setPreview(true)
+    props.github === undefined && setGithub(true)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   return (
@@ -16,7 +18,7 @@ function Card(props) {
           <p id='p'>{props.p}</p>
           <div className='links'>
             {!preview && <button className='btn btn-light' onClick={() => window.open(`${props.preview}`, '_blank')}>Preview</button>}
-            <button className='btn btn-light' onClick={() => window.open(`${props.github}`, '_blank')}>GitHub<i className="fa fa-github" aria-hidden="true" ></i></button>
+            {!github && <button className='btn btn-light' onClick={() => window.open(`${props.github}`, '_blank')}>GitHub<i className="fa fa-github" aria-hidden="true" ></i></button>}
           </div>
         </div>
       </div>

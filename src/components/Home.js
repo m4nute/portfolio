@@ -50,6 +50,8 @@ function Home() {
 
                     <div className="project" data-aos="fade-right" data-aos-duration="1400"><Card img='bdates.png' h1='Calendario' alt='calendar' p='Calendario de cumpleaños. Ayuda al usuario a acordarse de cuándo tiene que saludar a sus amigos.' github='https://github.com/m4nute/birthdate-calendar' /></div>
 
+                    <div className="project" data-aos="fade-right" data-aos-duration="1400"><Card img='topjobs.png' h1='TopJobs' alt='topjobs' p='Landing Page de futuro portal de trabajo. La plataforma completa estará disponible en breves.' preview='https://topjobs.netlify.app/' /></div>
+
                 </div>
             </div>
             <div className="contact" id='contact'>
